@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="a2">
+        <h2>FORM VALIDATION</h2>
+    </div>
+    <div class="a1">
+        <form id="myForm" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <span id="nameError" style="color: red;"></span>
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="Male" required> Male
+            <input type="radio" name="gender" value="Female" required> Female
+            <span id="genderError" style="color: red;"></span>
+            <br><br>
+
+            <label for="qualification">Qualification:</label>
+            <label><input type="checkbox" name="qualification" value="10th" required> 10th</label>
+            <label><input type="checkbox" name="qualification" value="12th" required> 12th</label>
+            <label><input type="checkbox" name="qualification" value="Diploma" required> Diploma</label>
+            <label><input type="checkbox" name="qualification" value="Degree" required> Degree</label>
+            <span id="qualificationError" style="color: red;"></span>
+            <br><br>
+
+            <label for="caste">Caste:</label>
+            <select name="caste" required>
+                <option value="1">OC</option>
+                <option value="2">BC</option>
+                <option value="3">SC/ST</option>
+            </select>
+            <span id="casteError" style="color: red;"></span>
+            <br><br>
+
+            <div class="a3">
+                <button type="submit">Submit</button>
+                <button type="button" onclick="cancelForm()">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <link href="c.css" rel="stylesheet">
+    <script src="c.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body 
+{
+    background-color: rgb(233, 195, 92);
+    height: 500px;
+  
+}
+
+.a1
+{
+    background-color: rgb(185, 125, 34);
+    font-size: 110%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 600px;
+    padding: 30px 30px;
+    width: auto;
+    margin: 0px 415px;
+
+   
+}
+
+.a2
+{
+    
+    font-size: 130%;
+    padding: 100px 590px 0px ;
+    
+}
+
+.a3
+{
+    align-items: center;
+}
+
+
+button
+{
+    padding: 7px 15px;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f7d045;
+}
